@@ -12,5 +12,21 @@
       "password": "password",
       "role": "user"
     }
-  ]
+  ],
+  "librarian": [
+    {
+      "id": "johncena@mylms.com",
+      "firstname": "John",
+      "lastname": "Cena"
+    }
+  ],
+  "users": [
+    {
+      "id": "arnoldschwagnzer@gmail.com",
+      "firstname": "Arnold",
+      "lastname": "Schwagnzer",
+      "bookid": [
+        "BK00001"
+      ]
+    }
 }
