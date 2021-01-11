@@ -67,19 +67,7 @@ export const restMiddleware = () => {
             )
           )
         );
-        GetData(
-          USERS,
-          data => {
-            group_of_actions.push(
-              next({
-                type: STORE,
-                dataType: USERS,
-                payload: data
-              })
-            );
-          },
-          ""
-        );
+
         if (action.dataType === "librarian") {
           GetData(
             LIBRARIAN,
@@ -94,18 +82,20 @@ export const restMiddleware = () => {
             },
             action.payload.id
           );
-
-          GetData(BOOKMANAGER, data =>
-            data.forEach(item =>
+          GetData(
+            USERS,
+            data => {
               group_of_actions.push(
                 next({
                   type: STORE,
-                  dataType: BOOKMANAGER,
-                  payload: item
+                  dataType: USERS,
+                  payload: data
                 })
-              )
-            )
+              );
+            },
+            ""
           );
+
           GetData(ADDRESS, data =>
             data.forEach(item =>
               group_of_actions.push(
@@ -118,16 +108,21 @@ export const restMiddleware = () => {
             )
           );
         } else {
-          GetData(BOOKMANAGER, data =>
-            data.forEach(item =>
+          console.log("Some process");
+
+          GetData(
+            USERS,
+            data => {
+              console.log(JSON.stringify(data));
               group_of_actions.push(
                 next({
                   type: STORE,
-                  dataType: BOOKMANAGER,
-                  payload: item
+                  dataType: USERS,
+                  payload: data
                 })
-              )
-            )
+              );
+            },
+            ""
           );
         }
         group_of_actions.forEach(action => {

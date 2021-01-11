@@ -49,7 +49,11 @@ const Header = props => {
   const role = useSelector(state => state.stateData.role);
   const librarian = useSelector(state => state.modelData.librarian);
   let currentuser = { id: "", firstname: "", lastname: "" };
-  if (role === "user") {
+
+  console.log(userid);
+  console.log(JSON.stringify(users));
+  console.log(role);
+  if (role === "user" && users[0] !== null && users[0] !== undefined) {
     console.log(JSON.stringify(users));
     console.log(userid);
     currentuser = users[0].find(p => p.id === userid);

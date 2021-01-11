@@ -176,13 +176,13 @@ export const UpdateData = (dataType, callback, id, body) => {
       sendRequest("PUT", `${ADDRESS_URL}/${id}`, callback, body);
       break;
     case BOOKSTORE:
-      sendRequest("PUT", `${BOOKSTORE_URL}/${id}`, callback, body);
+      sendRequest("PUT", `${BOOKSTORE_URL}/${id}.json`, callback, body);
       break;
     case BOOKMANAGER:
       sendRequest("PUT", `${BOOKMANAGER_URL}/${id}`, callback, null);
       break;
     case BOOKDESCRIPTION:
-      sendRequest("PUT", `${BOOKDESCRIPTION_URL}/${id}`, callback, null);
+      sendRequest("PUT", `${BOOKDESCRIPTION_URL}/${id}.json`, callback, null);
       break;
     default:
       console.log("Not a valid operations");
