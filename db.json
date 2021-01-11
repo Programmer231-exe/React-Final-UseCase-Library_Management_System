@@ -11,12 +11,6 @@
       "username": "arnoldschwagnzer@gmail.com",
       "password": "password",
       "role": "user"
-    },
-    {
-      "id": "someuser@gmail.com",
-      "username": "someuser",
-      "password": "password",
-      "role": "user"
     }
   ],
   "librarian": [
@@ -33,14 +27,6 @@
       "lastname": "Schwagnzer",
       "bookid": [
         "BK00001"
-      ]
-    },
-    {
-      "id": "someuser@gmail.com",
-      "firstname": "some",
-      "lastname": "user",
-      "bookid": [
-        "BK00002"
       ]
     }
   ],
@@ -62,15 +48,6 @@
       "city": "Liberty",
       "email": "johncena@mylms.com",
       "contactno": "9876543210"
-    },
-    {
-      "id": "someuser@gmail.com",
-      "door_no": 23,
-      "address_line1": "AB",
-      "address_line2": "XY",
-      "city": "liberty",
-      "email": "someuser@gmail.com",
-      "contactno": 23423423423
     }
   ],
   "bookstore": [
