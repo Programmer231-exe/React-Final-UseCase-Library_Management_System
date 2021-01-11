@@ -1,0 +1,328 @@
+{
+  "login": [
+    {
+      "id": "johncena@mylms.com",
+      "username": "johncena@mylms.com",
+      "password": "password",
+      "role": "librarian"
+    },
+    {
+      "id": "arnoldschwagnzer@gmail.com",
+      "username": "arnoldschwagnzer@gmail.com",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": "someuser@gmail.com",
+      "username": "someuser",
+      "password": "password",
+      "role": "user"
+    }
+  ],
+  "librarian": [
+    {
+      "id": "johncena@mylms.com",
+      "firstname": "John",
+      "lastname": "Cena"
+    }
+  ],
+  "users": [
+    {
+      "id": "arnoldschwagnzer@gmail.com",
+      "firstname": "Arnold",
+      "lastname": "Schwagnzer",
+      "bookid": [
+        "BK00001"
+      ]
+    },
+    {
+      "id": "someuser@gmail.com",
+      "firstname": "some",
+      "lastname": "user",
+      "bookid": [
+        "BK00002"
+      ]
+    }
+  ],
+  "address": [
+    {
+      "id": "arnoldschwagnzer@gmail.com",
+      "door_no": "A001",
+      "address_line1": "ABCD Apartment",
+      "address_line2": "XYZ Smart city",
+      "city": "Liberty",
+      "email": "johncena@mylms.com",
+      "contactno": "9876543210"
+    },
+    {
+      "id": "johncena@mylms.com",
+      "door_no": "A001",
+      "address_line1": "ABCD Apartment",
+      "address_line2": "XYZ Smart city",
+      "city": "Liberty",
+      "email": "johncena@mylms.com",
+      "contactno": "9876543210"
+    },
+    {
+      "id": "someuser@gmail.com",
+      "door_no": 23,
+      "address_line1": "AB",
+      "address_line2": "XY",
+      "city": "liberty",
+      "email": "someuser@gmail.com",
+      "contactno": 23423423423
+    }
+  ],
+  "bookstore": [
+    {
+      "id": "BK00001",
+      "booktitle": "365 Stories from Around the World Hardcover – 4 January 2015",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00002",
+      "booktitle": "101 People Who Changed the World Hardcover – 24 April 2019",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 6 R 2",
+      "status": "Reserved",
+      "userid": "arnoldschwagnzer@gmail.com"
+    },
+    {
+      "id": "BK00003",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Checked Out",
+      "userid": "arnoldschwagnzer@gmail.com"
+    },
+    {
+      "id": "BK00004",
+      "booktitle": "GATE 2021: Civil Engineering Previous Year Solved Papers Paperback – 15 June 2020",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00005",
+      "booktitle": "Charotar Publication Engineering Drawing Paperback – 1 January 2014",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Reserved",
+      "userid": "someuser@gmail.com"
+    },
+    {
+      "id": "BK00006",
+      "booktitle": "Higher Engineering Mathematics Paperback – 1 January 1965",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00007",
+      "booktitle": "Design of Steel Structures, 5ed: By Limit State Method as per IS:800 - 2007 Paperback – 1 January 2019",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00008",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Availble",
+      "userid": ""
+    },
+    {
+      "id": "BK00009",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00010",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00011",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    },
+    {
+      "id": "BK00012",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "customerreviews": 5,
+      "ratedBy": 1,
+      "position": "RR 2 C 5 R 2",
+      "status": "Available",
+      "userid": ""
+    }
+  ],
+  "bookdescription": [
+    {
+      "id": "BK00001",
+      "booktitle": "365 Stories from Around the World Hardcover – 4 January 2015",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "Do you often catch yourself daydreaming about what it would be like to live in a foreign land or in another era? If you have, this is the perfect book for you-right from the barren sands of Arabia to the icy cold polar regions of Antarctica- there's a story here from everywhere for everyone! Go on, open this book and travel all over the world without getting off your couch!.",
+      "language": "English",
+      "category": "story",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00002",
+      "booktitle": "101 People Who Changed the World Hardcover – 24 April 2019",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "Sheer grit and determination helps some people to rise above the rest. Their lives contribute in making the world a happier and better place. Browse through the pages of this book and learn about their remarkable achievements which are truly motivating and inspiring!.",
+      "language": "English",
+      "category": "story,inspiration",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00003",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "A delightful book of moral Stories, old and new, where each story teaches a lesson to cherish for life. The fascinating illustrations bring these stories to life and make story-time the best time of the day!.",
+      "language": "Hindi",
+      "category": "story",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00004",
+      "booktitle": "GATE 2021: Civil Engineering Previous Year Solved Papers Paperback – 15 June 2020",
+      "author": "MADE EASY Editorial Board",
+      "publisher": "Made Easy Publications (15 June 2020); MADE EASY PUBLICATIONS",
+      "description": "Best choice for exam preparation",
+      "language": "English",
+      "category": "engineering,exam",
+      "hardcover": 1000
+    },
+    {
+      "id": "BK00005",
+      "booktitle": "Charotar Publication Engineering Drawing Paperback – 1 January 2014",
+      "author": "N.d.bhatt",
+      "publisher": "Charotar Publishing House Pvt Ltd; FIFTY THIRD EDITION 2014 (1 January 2014); Charotar Publishing House Pvt Ltd",
+      "description": "Best choice for engineeting",
+      "language": "Engineering",
+      "category": "engineering,study",
+      "hardcover": 739
+    },
+    {
+      "id": "BK00006",
+      "booktitle": "Higher Engineering Mathematics Paperback – 1 January 1965",
+      "author": " B. S. Grewal ",
+      "publisher": "KHANNA PUBLISHERS; Forty Fourth edition (1 January 1965)",
+      "description": "Best choices for engineering mathematics",
+      "language": "English",
+      "category": "engineering,mathematics,study",
+      "hardcover": 1078
+    },
+    {
+      "id": "BK00007",
+      "booktitle": "Design of Steel Structures, 5ed: By Limit State Method as per IS:800 - 2007 Paperback – 1 January 2019",
+      "author": "S.S. Bhavikatti ",
+      "publisher": "Dreamtech Press (1 January 2019)",
+      "description": "Very detailed with pictorial representation",
+      "language": "English",
+      "category": "engineering,steel,study",
+      "hardcover": 1036
+    },
+    {
+      "id": "BK00008",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "A delightful book of moral Stories, old and new, where each story teaches a lesson to cherish for life. The fascinating illustrations bring these stories to life and make story-time the best time of the day!.",
+      "language": "Hindi",
+      "category": "story",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00009",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "A delightful book of moral Stories, old and new, where each story teaches a lesson to cherish for life. The fascinating illustrations bring these stories to life and make story-time the best time of the day!.",
+      "language": "Hindi",
+      "category": "story",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00010",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "A delightful book of moral Stories, old and new, where each story teaches a lesson to cherish for life. The fascinating illustrations bring these stories to life and make story-time the best time of the day!.",
+      "language": "Hindi",
+      "category": "story",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00011",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "A delightful book of moral Stories, old and new, where each story teaches a lesson to cherish for life. The fascinating illustrations bring these stories to life and make story-time the best time of the day!.",
+      "language": "Hindi",
+      "category": "story",
+      "hardcover": 236
+    },
+    {
+      "id": "BK00012",
+      "booktitle": "Large Print: Moral Stories Learning For Life (Hindi) Hardcover – 1 January 2012",
+      "author": " Om Books Editorial Team",
+      "publisher": "Om Books International (4 January 2015); Om Books International, 107 Ansari Road, Daryaganj, New Delhi-110002, India, Tel.(11) 4000 9000, Fax, (11) 23278091",
+      "description": "A delightful book of moral Stories, old and new, where each story teaches a lesson to cherish for life. The fascinating illustrations bring these stories to life and make story-time the best time of the day!.",
+      "language": "Hindi",
+      "category": "story",
+      "hardcover": 236
+    }
+  ],
+  "idvalues": [
+    {
+      "bookid": 1
+    },
+    {
+      "userid": 1
+    },
+    {
+      "librarianid": 12
+    }
+  ],
+  "bookmanager": [
+    {
+      "id": "",
+      "userid": "",
+      "bookid": "",
+      "returndate": "",
+      "status": ""
+    }
+  ]
+}
