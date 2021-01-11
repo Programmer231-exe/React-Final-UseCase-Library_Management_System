@@ -12,5 +12,12 @@
       "password": "password",
       "role": "user"
     }
+  ],
+  "librarian": [
+    {
+      "id": "johncena@mylms.com",
+      "firstname": "John",
+      "lastname": "Cena"
+    }
   ]
 }
