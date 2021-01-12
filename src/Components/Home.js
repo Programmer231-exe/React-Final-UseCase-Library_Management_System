@@ -2,17 +2,14 @@ import Header from './Header';
 import { useSelector } from "react-redux";
 import PrivateRoute from "./Routing/PrivateRoute";
 import BooksTable from "./BooksTable";
-import UsersTable from "./UsersTable";
-import Profile from "./Profiles";
-import { Link, Redirect } from "react-router-dom";
-import { Badge, Grid, IconButton, makeStyles, Toolbar } from "@material-ui/core";
+import {Redirect } from "react-router-dom";
+import { Badge, Grid, IconButton, Toolbar } from "@material-ui/core";
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import StoreIcon from '@material-ui/icons/Store';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import StorageIcon from '@material-ui/icons/Storage';
 import GroupIcon from '@material-ui/icons/Group';
 import ToggleLink from './ToggleLink';
-import { useEffect } from 'react';
 const Home = (props) => {
 
     const books = useSelector(state => state.modelData.bookstore);
@@ -91,7 +88,6 @@ const Home = (props) => {
             <PrivateRoute path={`${props.match.url}/librarian/statuscheck`} authenticated = {true} category = "status" component = {BooksTable} />
             <PrivateRoute path={`${props.match.url}/librarian/bookstore`} authenticated = {true} category = "allbooks" component = {BooksTable} />
             <PrivateRoute path={`${props.match.url}/librarian/users`} authenticated={true} category = "users" component={BooksTable} />
-            <PrivateRoute path={`${props.match.url}/profile`} authenticated={true} component={Profile} />
 {role === "user" ? <Redirect to="/home/bookstore" /> : <Redirect to = "/home/librarian/statuscheck" /> } 
         </div>
     </>

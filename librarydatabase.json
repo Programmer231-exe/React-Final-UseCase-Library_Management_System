@@ -89,8 +89,8 @@
       "customerreviews": 5,
       "ratedBy": 1,
       "position": "RR 2 C 6 R 2",
-      "status": "Reserved",
-      "userid": "arnoldschwagnzer@gmail.com"
+      "status": "Available",
+      "userid": ""
     },
     {
       "id": "BK00003",
@@ -98,8 +98,8 @@
       "customerreviews": 5,
       "ratedBy": 1,
       "position": "RR 2 C 5 R 2",
-      "status": "Checked Out",
-      "userid": "arnoldschwagnzer@gmail.com"
+      "status": "Available",
+      "userid": ""
     },
     {
       "id": "BK00004",

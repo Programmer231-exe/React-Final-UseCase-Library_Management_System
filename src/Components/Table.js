@@ -1,4 +1,3 @@
-import UserRegistrationForm from "./UserRegistrationForm";
 import React,{useEffect, useState} from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
