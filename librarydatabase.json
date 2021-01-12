@@ -304,25 +304,5 @@
       "category": "story",
       "hardcover": 236
     }
-  ],
-  "idvalues": [
-    {
-      "bookid": 1
-    },
-    {
-      "userid": 1
-    },
-    {
-      "librarianid": 12
-    }
-  ],
-  "bookmanager": [
-    {
-      "id": "",
-      "userid": "",
-      "bookid": "",
-      "returndate": "",
-      "status": ""
-    }
   ]
 }

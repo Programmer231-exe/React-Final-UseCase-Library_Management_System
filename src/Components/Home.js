@@ -11,8 +11,6 @@ import StoreIcon from '@material-ui/icons/Store';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import StorageIcon from '@material-ui/icons/Storage';
 import GroupIcon from '@material-ui/icons/Group';
-
-
 import ToggleLink from './ToggleLink';
 import { useEffect } from 'react';
 const Home = (props) => {

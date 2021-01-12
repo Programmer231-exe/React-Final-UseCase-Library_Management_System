@@ -1,4 +1,5 @@
 import {useSelector} from "react-redux";
+import React from "react";
 import Table from "./Table";
 export default function BooksTable(props){
    
@@ -32,8 +33,8 @@ export default function BooksTable(props){
 
     
     
-    return <>
+    return <React.Fragment>
         <Table  category = {category} headers = {headerGenerator()} />
-    </>
+    </React.Fragment>
 }
 
