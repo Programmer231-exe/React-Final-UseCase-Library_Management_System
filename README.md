@@ -2,7 +2,7 @@
 
 Username and Password Details:
 
-Role 		|		Username		|		Password
+Role     |   Username		|		Password
 ___________________________________________________________________________________
 Librarian	|		johncena@mylms.com	|		password
 ____________________________________________________________________________________
